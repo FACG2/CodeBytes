@@ -10,7 +10,7 @@ First Project
   We start a first teamwork to build the first page portfolio and we will still go on.
 
   * ## HOW do we start ?
-   1) Defining Requirement:
+  * Defining Requirement:
 
   Through reading the user stories, we determine the basic requirement that are needed to include them in the website.
 1. Description of what we offer.
@@ -21,36 +21,34 @@ First Project
 6. Easily read and understand the text on the website.
 7. Easily understand how to navigate the website by blind people.
 
-   2) Plan the website main Layout and sections:
+  * Plan the website main Layout and sections:
 1. One page layout.
 2. Sketch the four main sections: Home, Services, Our Team and Contact Us.
-
-
+3. Each section is connected into one of the main menu so you can navigate between sections easily.
 
 <img src ="https://img2.brain3.photobox.com/102579955a0fff96dd06dbd7c6b66718efb2ba0608b912544dbf55deb191c976d731a248.jpg" width="300" height="300">
 
-3. Each section is connected into one of the main menu so you can navigate between sections easily.
-
-   3) Write `HTML` code.
+ * Write `HTML` code.
 
       Each team member chose one section to start coding it.
 
-   4) Write `CSS` style.
+* Write `CSS` style.
 
-   5) Write the content.
+* Write the content.
 
-   6) Enhance the website responsive design.
+* Enhance the website responsive design.
 
-   7) Enhance the Accessibility.
+* Enhance the Accessibility.
 
-   8) Write the README file.
+* Write the README file.
 
-   9) Push the files to the Github repository:
+* Push the files to the Github repository:
     1. Each team member created his/her own ranch.
     2. Push the code file to the branches.
     3. Merge all files together.
 
-   10) Publish the Github Page.
+* Publish the Github Page.
 
 
-     You can visit our site from  [here].
+
+  You can visit our site from  [here](https://facg2.github.io/CodeBytes/)
