@@ -25,7 +25,9 @@ First Project
 1. One page layout.
 2. Sketch the four main sections: Home, Services, Our Team and Contact Us.
 
-![alt text](https://img2.brain3.photobox.com/102579955a0fff96dd06dbd7c6b66718efb2ba0608b912544dbf55deb191c976d731a248.jpg )
+
+
+<img src ="https://img2.brain3.photobox.com/102579955a0fff96dd06dbd7c6b66718efb2ba0608b912544dbf55deb191c976d731a248.jpg" width="300" height="300">
 
 3. Each section is connected into one of the main menu so you can navigate between sections easily.
 
