@@ -51,4 +51,6 @@ First Project
 
 
 
-  You can visit our site from  [here](https://facg2.github.io/CodeBytes/){:target="_blank"}
+  You can visit our site from  
+
+  <a href="https://facg2.github.io/CodeBytes/" target="_blank">here</a>
