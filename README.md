@@ -28,6 +28,8 @@ First Project
 
 <img src ="https://img2.brain3.photobox.com/102579955a0fff96dd06dbd7c6b66718efb2ba0608b912544dbf55deb191c976d731a248.jpg" width="300" height="300">
 
+---
+
  * Write `HTML` code.
 
       Each team member chose one section to start coding it.
