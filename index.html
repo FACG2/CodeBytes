@@ -4,6 +4,7 @@
   <head>
     <meta charset="UTF-8"/>
     <meta author="CodeBytes"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="content" description="This is our first Portfolio"/>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css"/>
@@ -16,16 +17,15 @@
 
   <body>
     <!-- Header Section -->
-    <div class="header" id="Home">
+    <div class="header" id="home">
       <section id="Home" class="section1 intro">
         <header>
-          <!-- <h2><img id="logo" src="logo3.png" style="height: auto; width: 250px;" ></img></h2> -->
           <a href="#">
             <img id="logo" src="images/logo3.png" alt="CodeBytes LOGO"></img>
           </a>
           <nav id="nav">
           <li>
-            <a href="#Home" accesskey="1">Home</a>
+            <a href="#home" accesskey="1">Home</a>
           </li>
           <li>
             <a href="#Skills" accesskey="2">Services</a>
@@ -111,13 +111,13 @@
         </h3>
         <ul class="social_links">
           <li>
-            <a href="https://www.linkedin.com/in/salwa-alnazly-9b464a130/" target="_blank" class="fa fa-linkedin"></a>
+            <a href="https://www.linkedin.com/in/salwa-alnazly-9b464a130/" target="_blank" class="fa fa-linkedin in"></a>
           </li>
           <li>
-            <a href="https://github.com/SalwaAlnazly" target="_blank" class="fa fa-github"></a>
+            <a href="https://github.com/SalwaAlnazly" target="_blank" class="fa fa-github github"></a>
           </li>
           <li>
-            <a href="https://www.codewars.com/users/Salwa_Nazli" target="_blank" class="fa fa-code"></a>
+            <a href="https://www.codewars.com/users/Salwa_Nazli" target="_blank" class="fa fa-code code-wars"></a>
           </li>
         </ul>
       </div>
@@ -131,13 +131,13 @@
         </h3>
         <ul class="social_links">
           <li>
-            <a href="https://www.linkedin.com/in/samer-elaila-657b95141/" class="fa fa-linkedin" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/samer-elaila-657b95141/" class="fa fa-linkedin in" target="_blank"></a>
           </li>
           <li>
+            <a href="https://github.com/samerelaila" class="fa fa-github github" target="_blank"></a>
           </li>
           <li>
-            <a href="https://www.codewars.com/users/samer.elaila" class="fa fa-code" target="_blank"></a>
-            <a href="https://github.com/samerelaila" class="fa fa-github" target="_blank"></a>
+            <a href="https://www.codewars.com/users/samer.elaila" class="fa fa-code code-wars" target="_blank"></a>
           </li>
         </ul>
       </div>
@@ -151,13 +151,13 @@
         </h3>
         <ul class="social_links">
           <li>
-            <a href="https://www.linkedin.com/in/qamar-alfalojy/" class="fa fa-linkedin" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/qamar-alfalojy/" class="fa fa-linkedin in" target="_blank"></a>
           </li>
           <li>
-            <a href="https://github.com/Qamar-93" class="fa fa-github" target="_blank"></a>
+            <a href="https://github.com/Qamar-93" class="fa fa-github github" target="_blank"></a>
           </li>
           <li>
-            <a href="https://www.codewars.com/users/Qamar-93" class="fa fa-code" target="_blank"></a>
+            <a href="https://www.codewars.com/users/Qamar-93" class="fa fa-code code-wars" target="_blank"></a>
           </li>
         </ul>
       </div>
@@ -170,13 +170,13 @@
         </h3>
         <ul class="social_links">
           <li>
-            <a href="https://www.linkedin.com/in/mahmoud-aldahdouh-00930191/" class="fa fa-linkedin" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/mahmoud-aldahdouh-00930191/" class="fa fa-linkedin in" target="_blank"></a>
           </li>
           <li>
-            <a href="https://github.com/mahmne" class="fa fa-github" target="_blank"></a>
+            <a href="https://github.com/mahmne" class="fa fa-github github" target="_blank"></a>
           </li>
           <li>
-            <a href="https://www.codewars.com/users/mahmne" class="fa fa-code" target="_blank"></a>
+            <a href="https://www.codewars.com/users/mahmne" class="fa fa-code code-wars" target="_blank"></a>
           </li>
         </ul>
       </div>
@@ -192,17 +192,18 @@
       <h1>Get in
         <span>touch with Us</span>
       </h1>
-      <form>
+      <form action="https://formspree.io/samer-elaila@live.com"  method="POST">
         <div class="left-div">
-          <input type="text" placeholder="Name" class="text" label="Name"/>
+          <input type="text" placeholder="Name" class="text" label="Name" required/>
           <br/>
-          <input type="text" placeholder="E-mail" class="text" label="E-mail"/>
+          <input type="email" placeholder="E-mail" class="text" label="E-mail" required/>
           <br/>
-          <input type="text" placeholder="Phone" class="text" label="Phone"/>
+          <input type="text" placeholder="Phone" class="text" label="Phone" required/>
         </div>
         <div class="right-div">
-          <textarea placeholder="Message" class="text-area" label="Message"></textarea>
-          <button class="send-btn">SEND</button>
+          <textarea placeholder="Message" class="text-area" label="Message" required></textarea>
+          <!-- <button class="send-btn">SEND</button> -->
+          <input type="submit" value="SEND" class="send-btn" />
         </div>
         <div class="clear"></div>
       </form>
